@@ -229,6 +229,8 @@ const App: React.FC = () => {
         } else if (['houston', 'imaginarium', 'weather', 'pages', 'defense-ios', 'ozark'].includes(appConfig.id)) {
           appSpecificProps.onApiCall = incrementApiCallCount;
           if (appConfig.id !== 'ozark') appSpecificProps.addNotification = addNotification;
+        } else if (appConfig.id === 'site-creator') {
+            appSpecificProps.addNotification = addNotification;
         } else if (appConfig.id === 'my-docs') {
           appSpecificProps.onOpenFile = (fileHandle: FileSystemFileHandle) => openApp('pages', { initialFileHandle: fileHandle });
         } else if (appConfig.id === 'pages') {

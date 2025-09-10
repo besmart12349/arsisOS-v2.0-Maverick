@@ -18,6 +18,7 @@ import PhotoBooth from './apps/PhotoBooth';
 import ArsisId from './apps/ArsisId';
 import DefenseIOS from './apps/DefenseIOS';
 import NetworkInfo from './apps/NetworkInfo';
+import SiteCreator from './apps/Contacts';
 
 import { 
     PagesIcon, 
@@ -38,11 +39,13 @@ import {
     ArsisIdIcon,
     DefenseIOSIcon,
     NetworkInfoIcon,
+    SiteCreatorIcon,
 } from './components/Icons';
 
 export const APPS: AppConfig[] = [
   // User-specified order
   { id: 'my-docs', title: 'MyDocs', icon: MyDocsIcon, component: MyDocs, width: 700, height: 500, onDesktop: true },
+  { id: 'site-creator', title: 'Site Creator', icon: SiteCreatorIcon, component: SiteCreator, width: 900, height: 650, onDesktop: true },
   { id: 'ozark', title: 'OZARK', icon: CompassIcon, component: Ozark, width: 1024, height: 768 },
   { id: 'houston', title: 'Houston', icon: HoustonIcon, component: Houston, width: 500, height: 700, onDesktop: true },
   { id: 'terminal', title: 'Terminal', icon: TerminalIcon, component: Terminal, width: 680, height: 420 },

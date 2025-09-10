@@ -354,3 +354,16 @@ export const NetworkInfoIcon: React.FC<{ className?: string }> = ({ className })
         <line x1="14" y1="32" x2="50" y2="32" stroke="#34C759" strokeWidth="2" />
     </svg>
 );
+
+export const SiteCreatorIcon: React.FC<{ className?: string }> = ({ className }) => (
+    <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" className={className}>
+        <rect width="56" height="56" x="4" y="4" fill="#F0F0F0" rx="12"/>
+        <path d="M12 12 H52 V52 H12 Z" fill="#FFF" stroke="#DDD" strokeWidth="2" />
+        <circle cx="32" cy="32" r="10" fill="#4285F4" />
+        <path d="M32 22 C 38 26, 38 38, 32 42" stroke="#FFF" strokeWidth="1.5" fill="none" />
+        <path d="M32 22 C 26 26, 26 38, 32 42" stroke="#FFF" strokeWidth="1.5" fill="none" />
+        <path d="M24 32 H40" stroke="#FFF" strokeWidth="1.5" fill="none" />
+        <path d="M16 20 H48" stroke="#CCC" strokeWidth="2" fill="none" strokeLinecap="round" />
+        <path d="M16 48 H36" stroke="#CCC" strokeWidth="2" fill="none" strokeLinecap="round" />
+    </svg>
+);

@@ -30,7 +30,7 @@ declare global {
   }
 }
 
-export type AppID = 'pages' | 'terminal' | 'weather' | 'my-docs' | 'calculator' | 'ozark' | 'about' | 'stocks' | 'houston' | 'settings' | 'imaginarium' | 'calendar' | 'music' | 'photo-booth' | 'launchpad' | 'arsis-id' | 'defense-ios' | 'network-info';
+export type AppID = 'pages' | 'terminal' | 'weather' | 'my-docs' | 'calculator' | 'ozark' | 'about' | 'stocks' | 'houston' | 'settings' | 'imaginarium' | 'calendar' | 'music' | 'photo-booth' | 'launchpad' | 'arsis-id' | 'defense-ios' | 'network-info' | 'site-creator';
 
 export interface DesktopItem {
   id: AppID;
